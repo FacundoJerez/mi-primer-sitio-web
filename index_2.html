@@ -7,6 +7,7 @@
             background-color: green;
             font-size: 20px;
             color: white;
+            margin: 0;
         }
         span{
 			font-weight: bold;
@@ -14,6 +15,8 @@
         button{
             width: 240px;
             height: 40px;
+            margin: 10px;
+            padding: 10px;
         }
         .main-section {
             width: 100vw;
@@ -21,6 +24,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            text-align: center;
+			flex-direction: column;
         }
         .center {
             display: flex;
@@ -28,25 +33,13 @@
             align-items: center;
             margin: auto;
         }
-        #button-1{
-            margin: 10px;
-            padding: 10px;
-        }
 	</style>
 </head>
 <body>
     <div class="main-section">
-        <div class="container">
-            <div class="center">
-                <h1>Hola, soy Facundo</h1>
-            </div>
-            <div class="center">
-                <p>Este es mi primer sitio web.<span>¡Pronto seguiremos mejorando!</span></p>
-            </div>
-            <div id="button-1" class="center">
-                <button>Click aquí</button>
-            </div>
-        </div>
+        <h1>Hola, soy Facundo</h1>
+        <p>Este es mi primer sitio web.<span>¡Pronto seguiremos mejorando!</span></p>
+        <button>Click aquí</button>
     </div>
 	<script></script>
 </body>
